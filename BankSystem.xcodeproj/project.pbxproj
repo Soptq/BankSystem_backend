@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6713D06922C62AC900D76233 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6713D06822C62AC900D76233 /* main.cpp */; };
+		6713D07122C6343400D76233 /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6713D07022C6343400D76233 /* Database.cpp */; };
+		6713D07422C6674900D76233 /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6713D07322C6674900D76233 /* User.cpp */; };
+		673A365C22C8416700768723 /* BankPersonnel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 673A365A22C8416700768723 /* BankPersonnel.cpp */; };
+		67DD92E722C7046000C64959 /* Interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67DD92E522C7046000C64959 /* Interface.cpp */; };
+		67DD92EC22C7780000C64959 /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67DD92EA22C7780000C64959 /* md5.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6713D06322C62AC900D76233 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6713D06522C62AC900D76233 /* BankSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BankSystem; sourceTree = BUILT_PRODUCTS_DIR; };
+		6713D06822C62AC900D76233 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6713D06F22C62B0900D76233 /* Database.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		6713D07022C6343400D76233 /* Database.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Database.cpp; sourceTree = "<group>"; };
+		6713D07222C666D400D76233 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		6713D07322C6674900D76233 /* User.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		673A365A22C8416700768723 /* BankPersonnel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BankPersonnel.cpp; sourceTree = "<group>"; };
+		673A365B22C8416700768723 /* BankPersonnel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BankPersonnel.hpp; sourceTree = "<group>"; };
+		673A365E22C85A2300768723 /* Loan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loan.h; sourceTree = "<group>"; };
+		67DD92E522C7046000C64959 /* Interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Interface.cpp; sourceTree = "<group>"; };
+		67DD92E622C7046000C64959 /* Interface.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Interface.hpp; sourceTree = "<group>"; };
+		67DD92E822C74BB100C64959 /* Appeal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Appeal.h; sourceTree = "<group>"; };
+		67DD92E922C74BE100C64959 /* Loss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loss.h; sourceTree = "<group>"; };
+		67DD92EA22C7780000C64959 /* md5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		67DD92EB22C7780000C64959 /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6713D06222C62AC900D76233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6713D05C22C62AC900D76233 = {
+			isa = PBXGroup;
+			children = (
+				6713D06722C62AC900D76233 /* BankSystem */,
+				6713D06622C62AC900D76233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6713D06622C62AC900D76233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6713D06522C62AC900D76233 /* BankSystem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6713D06722C62AC900D76233 /* BankSystem */ = {
+			isa = PBXGroup;
+			children = (
+				6713D06822C62AC900D76233 /* main.cpp */,
+				6713D06F22C62B0900D76233 /* Database.h */,
+				6713D07022C6343400D76233 /* Database.cpp */,
+				6713D07222C666D400D76233 /* User.h */,
+				6713D07322C6674900D76233 /* User.cpp */,
+				67DD92E522C7046000C64959 /* Interface.cpp */,
+				67DD92E622C7046000C64959 /* Interface.hpp */,
+				67DD92E822C74BB100C64959 /* Appeal.h */,
+				67DD92E922C74BE100C64959 /* Loss.h */,
+				67DD92EA22C7780000C64959 /* md5.cpp */,
+				67DD92EB22C7780000C64959 /* md5.h */,
+				673A365A22C8416700768723 /* BankPersonnel.cpp */,
+				673A365B22C8416700768723 /* BankPersonnel.hpp */,
+				673A365E22C85A2300768723 /* Loan.h */,
+			);
+			path = BankSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6713D06422C62AC900D76233 /* BankSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6713D06C22C62AC900D76233 /* Build configuration list for PBXNativeTarget "BankSystem" */;
+			buildPhases = (
+				6713D06122C62AC900D76233 /* Sources */,
+				6713D06222C62AC900D76233 /* Frameworks */,
+				6713D06322C62AC900D76233 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankSystem;
+			productName = BankSystem;
+			productReference = 6713D06522C62AC900D76233 /* BankSystem */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6713D05D22C62AC900D76233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Soptq;
+				TargetAttributes = {
+					6713D06422C62AC900D76233 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6713D06022C62AC900D76233 /* Build configuration list for PBXProject "BankSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6713D05C22C62AC900D76233;
+			productRefGroup = 6713D06622C62AC900D76233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6713D06422C62AC900D76233 /* BankSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6713D06122C62AC900D76233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6713D07422C6674900D76233 /* User.cpp in Sources */,
+				6713D07122C6343400D76233 /* Database.cpp in Sources */,
+				6713D06922C62AC900D76233 /* main.cpp in Sources */,
+				67DD92EC22C7780000C64959 /* md5.cpp in Sources */,
+				673A365C22C8416700768723 /* BankPersonnel.cpp in Sources */,
+				67DD92E722C7046000C64959 /* Interface.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6713D06A22C62AC900D76233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6713D06B22C62AC900D76233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6713D06D22C62AC900D76233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SF9ZDK4VQ;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/mysql/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/mysql/lib,
+				);
+				OTHER_LDFLAGS = "-lmysqlclient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6713D06E22C62AC900D76233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SF9ZDK4VQ;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/mysql/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/usr/local/mysql/lib,
+				);
+				OTHER_LDFLAGS = "-lmysqlclient";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6713D06022C62AC900D76233 /* Build configuration list for PBXProject "BankSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6713D06A22C62AC900D76233 /* Debug */,
+				6713D06B22C62AC900D76233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6713D06C22C62AC900D76233 /* Build configuration list for PBXNativeTarget "BankSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6713D06D22C62AC900D76233 /* Debug */,
+				6713D06E22C62AC900D76233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6713D05D22C62AC900D76233 /* Project object */;
+}
