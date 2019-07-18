@@ -16,7 +16,7 @@
 using namespace std;
 
 Interface::Interface(){
-    db.initConnection("root", "jplpFDetz3KF8Vy", "127.0.0.1", 3306);
+    db.initConnection("root", "PASSWORD", "127.0.0.1", 3306);
 }
 
 string Interface::signUpNewUser(string password, string name, string gender, string cid, string phone, string email, string address, string zip){
